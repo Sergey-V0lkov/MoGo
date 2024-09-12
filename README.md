@@ -1,23 +1,17 @@
 # :cocktail: :sunny: :palm_tree: Проект по верстке MoGo :palm_tree: :sunny: :cocktail:
-Потрясающая верстка сайта MoGo! Очень красивый дизайн и элементы анимации! Верстка адаптивна под мобильные устройства
 
 
 
 
 
-
-
-
-#  :thumbsup: :sparkles: :alien: Проект по верстке Digital_crafters :alien: :sparkles: :thumbsup:
-
-
-
-![ScreenRecorderProject3](https://github.com/user-attachments/assets/597344eb-1224-4f91-9af8-b3f5c8c0ea28)
+![ScreenRecorderProject1_1](https://github.com/user-attachments/assets/dea716b5-cefb-4c25-94f6-588877ce7ef0)
 
 
 
 
-Верстка очень необычного и интересной страницы с кучей анимации, каруселей, всяческий дерганий и интересных элементов! :octocat: :octocat: :octocat:
+Потрясающая верстка сайта MoGo! Очень красивый дизайн и элементы анимации! Верстка адаптивна под мобильные устройства :earth_asia: :pineapple: :cactus:
+
+
 
 - кроссбраузерность :heavy_check_mark:
 - bootstrap :heavy_check_mark:
