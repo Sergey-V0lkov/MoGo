@@ -1,0 +1,1257 @@
+
+@mixin Gradient{
+	background-image: linear-gradient(to top, rgba(252, 227,138, 0.8), rgba(236, 100,101, 0.8));
+	background-size: cover;
+
+}
+
+
+
+
+$green-color: #95e1d3; 
+$Line-red-color: #f38181;
+$light-text-color: #999999;
+$dark-text-color:#333333;
+
+
+.zagolovok{
+	.LitleZag{
+		font-size: 24px;
+		font-family: 'KaushanScript-Regular';
+		padding: 90px 0 12px 0;
+		color: $dark-text-color;
+		text-align: center;
+
+	}
+	.hightZag{
+		font-size: 30px;
+		font-family: 'Montserrat-Bold';
+		text-align: center;
+		text-transform: uppercase;
+		padding-bottom: 17px;
+		padding-right: 20px;
+		padding-left: 20px;
+
+	}
+}
+.lineCenter{
+	text-align: center;
+	.line{
+		display: inline-block;
+		width: 60px;
+		border-bottom: 3px solid $Line-red-color;
+		margin: 0 0 45px 3px;
+	}
+}
+
+
+
+
+//______________________________________________________________________
+
+
+.bot{
+	padding-bottom: 110px;
+}
+
+.story p{
+	text-align: center;
+	font-size: 15px;
+	color: $light-text-color;
+	padding-bottom: 90px;
+}	
+
+
+
+.BlueFon {
+	display: inline-block;
+	background-color: $green-color;
+	position: relative;
+	height: 250px;
+	width: 100%;
+}
+
+.BlueFon .photo1{
+	height: 250px;
+	display: inline-block;
+	padding: 0;  
+	position: relative; 
+	width: 100%;
+}
+
+.BlueFon .photo1 img{
+	height: 100%;
+	width: 100%;
+	// display: block;
+}
+
+.descr{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	@include Gradient;
+	color: #fff;// делает текст белым
+	padding-top: 110px;/*делаем текс по середине*/
+	line-height: 25px;
+	text-align: center;/*делаем текст по середине*/
+	font-size: 18px;
+	font-family: 'Montserrat-Bold';
+	text-transform: uppercase;
+	/*----------------*/
+	opacity: 0;
+	i{
+		font-size: 30px;
+	}
+}
+
+.BlueFon .photo1:hover{
+	margin-top: -12px;
+	margin-left: -12px;
+	-webkit-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+	height: 252px;
+	width: 350px;
+}
+
+.BlueFon .photo1:hover .descr{
+	opacity: 1;
+	-webkit-transition: all .7s;
+	-o-transition: all .7s;
+	transition: all .7s;
+
+}
+
+// _________________________________________________________________________
+
+
+
+
+
+
+
+body{
+
+}
+
+header{
+
+	background-image: url(../img/bird.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	.fon-gradient{
+		@include Gradient;
+		min-height:  820px; //делает картинку размером с экран
+		span a{
+			font-family: 'Montserrat-Bold';
+			color: #fff;
+			font-size: 30px;
+			line-height: 70px;
+			&{
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+
+		.right, .left{
+
+			padding-top: 10px;
+		}
+
+		.right{
+			padding-left: 19%;
+		}
+		nav{
+			ul{
+				margin:0;
+				padding:0;
+				li{
+					display: inline-block;
+					padding: 0 13px;
+					a{
+						font-family: 'Montserrat-Regular';
+						font-size: 14px;
+						color: #fff;
+						text-transform: uppercase;
+						text-decoration: none;
+						line-height: 70px;
+
+						&:hover{
+							color:#fce38a;
+							border-bottom: 3px solid;
+							padding-bottom: 9px;
+
+						}
+					}
+				}
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+		.Creative{
+			color: #fff;
+			font-size: 72px;
+			font-family: 'KaushanScript-Regular';
+			text-align: center;
+			padding: 90px 0 30px 0;
+
+
+		}
+		h1{
+			font-family: 'Montserrat-Bold';
+			font-size: 150px;
+			color: #fff;
+			text-transform: uppercase;
+			text-align: center;
+			line-height: 140px;
+			
+		}
+
+		.lineCenter{
+			text-align: center;
+		}
+
+		.lineWhite {
+			display: inline-block;
+			width: 60px;
+			border-bottom: 3px solid #fff;
+			text-align: center;
+			margin: 40px 0;
+		}
+
+		.knop{
+			text-align: center;
+		}
+		.bottom{
+			display: inline-block;
+			font-size: 14px;
+			font-family: 'Montserrat-Bold';
+			text-transform: uppercase;
+			border: 3px solid #fff;
+			color: #FFF;
+			text-decoration: none;
+			cursor: pointer;
+			padding: 10px 28px;
+			margin: 0 0 150px 0;
+
+			&:hover{
+				color: $dark-text-color;
+				background-color: #fff;
+			}
+		}
+
+		.BottomMenu{
+			border-top:  3px solid #fff;
+			opacity: 0.7;
+			color: #fff;
+			font-size: 18px;
+			font-family: 'Montserrat-Regular';
+			line-height: 68px;
+
+			span{
+				font-size: 24px;
+				font-family: 'Montserrat-Bold';
+				padding-right: 7px;
+			}
+		}
+
+		.BottomMenuActive{
+			opacity: 1;
+
+
+
+		}
+		.BorderTopRed{
+			width: 70px;
+			border-top:  3px solid $Line-red-color;
+			margin-top: -73px;
+			position: absolute;
+		}
+	}
+
+
+}
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+.fiveBlocksBlue{
+	background-color: $green-color;
+	.stat{
+		display: flex;
+	}
+	.BlueBlocks{
+		border-right: 1px solid #fff;
+		width: 20%;
+		height: 270px;
+		text-align: center;
+		font-size: 14px;
+		color: #fff;
+		font-family: 'Montserrat-Regular';
+		text-transform: uppercase;
+		span{
+			font-size: 72px;
+			color: #fff;
+			font-family: 'Montserrat-Bold';
+			line-height: 106px;
+			padding-top: 70px;
+			display: inline-block;
+		}
+	}
+	.BorderLeft{
+		border-left: 1px solid #fff;
+	}
+}
+
+
+
+.borderBot{
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 80px;
+	padding-bottom: 20px;
+
+}
+
+.otst{
+	padding: 45px 0 80px 0;
+}
+.pir{
+	display: flex;
+
+	.icon{
+		padding: 0 24px;
+		i{
+			color: $green-color;
+			font-size: 30px;
+		}
+
+	}
+
+	
+	.text{
+		h2{
+			font-size: 14px;
+			color: $dark-text-color;
+			font-family: 'Montserrat-Regular';
+			text-transform: uppercase;
+		}
+		p{
+			font-size: 15px;
+			font-family: 'Roboto-Regular';
+			color: $light-text-color;
+			padding: 10px 0 20px 0;
+		}
+	}
+}
+
+	// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+	.iphone{
+		background-image: url(../img/forest.jpg);
+		max-height: 856px;
+		.fonForest{
+			max-height: 856px;
+			background-color: rgba(228, 228,228, .7);
+
+
+
+			.devices{
+				padding-top: 21px;
+				width: 608px;
+				display: block;
+				margin: 0 auto;
+
+				.ipad{
+				}
+
+				.phone{
+					margin: -385px 0 0 0;
+					img{
+						padding-left: 330px;
+					}
+				}
+			}
+
+		}
+	}
+
+		// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+		.service{
+			padding: 40px 0  115px 0 ;
+
+			.text{
+				text-align: center;
+				font-size: 15px;
+				font-family: 'Roboto-Regular';
+				color: $light-text-color;
+
+			}
+
+			#spoler1{
+				margin-top:0;
+			}
+			.accordion{
+				border:  1px solid #e5e5e5;
+				cursor: pointer;
+				padding: 10px 0 10px 10px;
+				margin-top: 10px;
+
+
+				.icon{
+					padding: 0;
+					i{
+						color: $green-color;
+						font-size: 30px;
+
+					}
+
+				}
+
+
+				.text{
+					padding: 0 10px;
+					h2{
+						font-size: 14px;
+						color: $dark-text-color;
+						font-family: 'Montserrat-Regular';
+						text-transform: uppercase;
+						text-align: left;
+						padding-top: 8px;
+					}
+				}
+
+
+			}
+
+			.content1{
+				height: 178px;
+				border-left:1px solid #e5e5e5; 
+				border-right:1px solid #e5e5e5;
+				border-bottom: 1px solid #e5e5e5;
+				overflow: auto;
+
+
+			}
+
+
+			.box{
+
+				padding: 10px 0 0 14px;
+
+			}
+			.deg{
+
+				width: 12px;
+				height: 12px;
+				border-left: 3px solid $light-text-color;
+				border-bottom:  3px solid $light-text-color;
+				transform: rotate(-45deg);
+				float: right;
+
+
+			}
+
+			.deg.active{
+				transform: rotate(135deg);
+			}
+
+
+
+			.marginTop{
+				margin-top: 10px;
+			}		
+
+			.noPading{
+				padding: 0;
+			}
+
+
+			.photo{
+				padding: 0 30px 0 0;
+				img{
+					width: 100%;
+				}
+			}
+
+		}
+
+
+
+
+
+		html{
+
+
+		::-webkit-scrollbar{ width: 5px;  /* 1 - вертикальный скроллбар */}
+
+	::-webkit-scrollbar-track-piece {background: #f5f5f5; /* 4 – видимая часть трека */ }
+::-webkit-scrollbar-thumb {background: $green-color; border-radius: 10px;  /* 5 - ползунок */}
+}
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+.GreyFonCarusel{
+	background-color: #f8f8f8;
+	.circle{
+		border:4px $green-color solid;
+		height: 150px;
+		width: 145px;
+		text-align: center;
+		font-size: 88px;
+		color: $green-color;
+	}
+
+	.Line{
+    display: inline-block;
+    width: 60px;
+    border-bottom: 3px solid #f38181;
+    margin: 0 0 45px 3px;
+	}
+}
+
+
+
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+.threeMansPhoto {
+
+	p{
+		text-align: center;
+		font-size: 15px;
+		font-family: 'Roboto-Regular';
+		color: $light-text-color;
+		padding-bottom: 70px;
+
+	}
+
+	.bot{
+		padding-bottom: 20px;
+	}
+
+	.BlueFon {
+		height: 492px;
+
+	}
+
+	.BlueFon .photo1{
+		height: 492px;
+
+	}
+
+	ul{
+		list-style-type: none;
+		padding: 106px 0 0 64px;
+		margin:0;
+		display: flex;
+
+		li{
+			display: inline-block;
+			height: 50px;
+			border-left:  $Line-red-color 1px solid;
+			a{
+				background-color: #fce38a;
+				display: block;
+				height: 50px;
+				width: 50px;
+				color: #fff;
+				border-right: $Line-red-color 1px solid;
+				border-bottom:  $Line-red-color 1px solid;
+				border-top:  $Line-red-color 1px solid;
+
+
+				i{
+					font-size: 28px;
+					padding-top: 11px;
+					color: $Line-red-color;
+				}
+
+
+
+			}
+
+			a:hover{
+				
+				background-color: $Line-red-color;
+				i{
+					color: #FFF;
+				}
+
+			}
+		}
+	}
+
+
+
+	.text{
+		h2{
+			text-align: center;
+			font-size: 14PX;
+			font-family: 'Montserrat-Regular';
+			text-transform: uppercase;
+			margin: 0;
+		}
+		.Graphic{
+			text-align: center;
+			font-family: 'Roboto-LightItalic';
+			font-size: 15px;
+			padding: 5px 0 100px 0;
+		}
+	}
+
+	.sixPhoto{
+		min-height: 246px;
+		background-color: #f8f8f8;
+		padding-top: 50px;
+		
+
+		.left{
+			padding-left: 5%;
+
+		}
+
+		.centerLeft{
+			padding-left: 2.5%;
+		}
+
+		.right{
+			padding-right: 5%;
+		}
+
+		.centerRight{
+			padding-right: 2.5%;
+		}
+
+		.padt{
+			padding-top: 20px;
+		}
+
+		.padten{
+			padding-top: 5px;
+		}
+	}
+}
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+.photochki{
+	.item{
+		padding: 0;
+		position: relative;
+		img{
+			width: 100%;
+			height: 390px;
+		}
+
+	}
+
+	.visoko{
+		height: 780px;
+		img{
+			height: 100%;
+		}
+
+
+	}
+
+
+
+	.fono{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		@include Gradient;
+		color: #fff; /*делает текст белым*/
+		padding-top: 160px;/*делаем текс по середине*/
+		text-align: center;/*делаем текст по середине*/
+		font-size: 14px;
+		font-family: 'Montserrat-Regular';
+		text-transform: uppercase;
+		/*----------------*/
+		opacity:0; /*текст плавно становится невидымым!*/
+
+	}
+
+	.visoko .fono{
+
+		padding-top: 350px;/*делаем текс по середине*/
+
+	}
+
+
+
+	.mainBlock:hover .fono{
+		opacity: 1;
+		-webkit-transition: all .4s;
+		-o-transition: all .4s;
+		transition: all .4s;
+	}
+
+
+
+	i{
+		text-align: center;
+		display: block;
+		font-size: 35px;
+		padding-bottom:  20px;
+	}
+	h4{
+		font-size: 15px;
+		font-family: 'Roboto-LightItalic';
+		text-transform: none;
+		padding: 5px 0 0 0;
+	}
+
+	.bot{
+		text-align: center;
+		color: $light-text-color;
+	}
+}
+
+
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+.owl-carousel{
+	padding: 100px 0 80px 0;
+}
+
+
+
+.review_item1, .review_item2{
+
+	padding: 0 40px;
+
+	.circle img{
+		border-radius: 110px;
+		height: 210px;
+		width: 210px;
+	}
+}
+
+
+
+.text{
+	font-size: 24px;
+	font-family: 'Roboto-LightItalic';
+	color: $light-text-color;
+	.zagolovok{
+		display: inline-block;
+		.LitleZag{
+			padding: 0 0 0 75px;
+
+		}
+	}
+	.Line{
+		margin: 0;
+		display: inline-block;
+		position: absolute;
+		margin-top: 16px;
+
+	}
+}
+
+
+
+
+.first-car .owl-carousel .owl-nav {
+	display: inline-block;
+	margin-left: 5px;
+	position: absolute;
+	margin-top: -89px;
+
+}
+
+
+.secondCar .owl-carousel .owl-nav {
+	margin-top: -118px;
+}
+
+
+.first-car .owl-carousel .owl-nav button.owl-prev {
+	width: 11px;
+	height: 11px;
+	border-top:  2px solid #cdd1d5;
+	border-left:  2px solid #cdd1d5;
+	transform: rotate(-45deg);
+}
+
+.first-car .owl-carousel .owl-nav button.owl-next {
+	width: 11px;
+	height: 11px;
+	border-top:  2px solid #cdd1d5;
+	border-left:  2px solid #cdd1d5;
+	transform: rotate(135deg);
+
+}
+
+.marginleft{
+	display: inline-block;
+	margin-left: 1079px;
+	position: absolute;
+}
+
+
+.first-car .owl-carousel .owl-nav button.owl-next:focus, .first-car .owl-carousel .owl-nav button.owl-prev:focus, .second-car .owl-carousel .owl-nav button.owl-next:focus, .second-car .owl-carousel .owl-nav button.owl-prev:focus {
+	outline: none;
+}
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+.HappyClients{
+
+	background-image: url(../img/mountain.jpg);
+	min-height:  814px;
+	.fonMountain{
+		min-height: 814px;
+		background-color: rgba(228, 228,228, .8);
+	}
+	a{
+
+		img{
+
+			border-radius: 80px;
+			height: 110px;
+			width: 110px;
+		}
+	}
+
+	.textAbout{
+		h2{
+			font-family: 'Montserrat-Regular';
+			font-size: 14px;
+			text-transform: uppercase;
+			color: $dark-text-color;
+		}
+		h3{
+			font-family: 'Roboto-LightItalic';
+			font-size: 14px;
+			color: $dark-text-color;
+			padding: 10px 0;
+		}
+		.Line{
+			margin-bottom:  25px;
+		}
+		span{
+			font-size: 15px;
+			color: $light-text-color;
+			font-family: 'Roboto-Regular';
+		}
+	}
+
+	.topOtst{
+		padding: 50px 15px 70px 15px ;
+	}
+}
+
+
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+.latest{
+
+	.Polosochka{
+		border-bottom: 1px solid #e5e5e5;
+		a{
+			height: 240px;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.box{
+			width: 60px;
+			height: 70px;
+			background-color: $green-color;
+			font-family: 'Roboto-LightItalic';
+			font-size: 15px;
+			color: #fff;
+			text-align: center;
+			margin-left: -10px;
+			margin-top: -80px;
+			position: absolute;
+
+			span{
+				font-size: 30px;
+				color: #FFF;
+				font-family: 'Montserrat-Bold';
+				text-align: center;
+				display: block;
+				line-height: 30px;
+				padding-top: 14px;
+			}
+		}
+
+
+		h2{
+			font-family: 'Montserrat-Regular';
+			font-size: 14px;
+			color: $dark-text-color;
+			text-transform: uppercase;
+			padding: 20px 0 6px 0;
+
+		}
+
+		p{
+			font-family: 'Roboto-Regular';
+			font-size: 15px;
+			color: $light-text-color;
+		}
+
+
+	}
+
+	p.greenI{
+		font-size: 15px;
+		color: $light-text-color;
+		padding: 10px 0 90px 0;
+	}
+
+	i{
+		color: $green-color;
+	}
+
+	.fas{
+		padding-left: 15px;
+	}
+}
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+.map{
+	min-height: 200px;
+	background-image: url(../img/map.jpg);
+	.fonMap{
+		min-height: 200px;
+		background-color: rgba(228, 228,228, .8);
+		text-align: center;
+		i{
+			font-size: 30px;
+			color: $Line-red-color;
+			padding-top: 55px;
+		}
+		.textMap{
+			font-size: 24px;
+			color: $Line-red-color;
+			font-family: 'Montserrat-Bold';
+			text-transform: uppercase;
+			padding: 10px 0 10px 0;
+			display: block;
+		}
+
+	}
+}
+
+
+
+
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+footer{
+	.topLine{
+		border-bottom: 1px solid #e5e5e5;
+		height: 40px;
+	}
+
+	.re{
+		h2{
+			font-size: 46px;
+			font-family: 'Montserrat-Bold';
+			color: $light-text-color;
+			padding-bottom: 22px;
+		}
+		p{
+			font-size: 15px;
+			font-family: 'Roboto-Regular';
+			color: $light-text-color;
+			line-height: 24px;
+		}
+
+		.BoxBorder{
+			font-family: 'Montserrat-Regular';
+			font-size: 14px;
+			color:$dark-text-color;
+			border-bottom: 1px solid #e5e5e5;
+			padding: 20px 0 15px 0; 
+			span{
+				font-family: 'Montserrat-Bold';
+				font-size: 18px;
+				color:$dark-text-color;
+			}
+		}
+		.icons{
+			font-family: 'Roboto-LightItalic';
+			font-size: 15px;
+			color: $light-text-color;
+			padding-top: 15px;
+			a{
+				padding-left: 10px;
+				i{
+					color: $green-color;
+				}
+			}
+		}
+		form{
+			padding-top: 33px;
+			display: flex;
+			input.email{
+				padding:8px 0 8px 10px;
+				border: 1px solid #e5e5e5;
+				font-family: 'Roboto-LightItalic';
+				font-size: 15px;
+				color: $light-text-color;
+				width: 230px;
+				outline:none;
+			}
+
+			input.bott{
+				background-color: $green-color;
+				padding:9px 0 9px 10px;
+				border:none;
+				font-family: 'Montserrat-Bold';
+				font-size: 14px;
+				text-transform: uppercase;
+				color:#FFF;
+				width: 150px;
+				outline:none;
+
+			}
+		}
+	}
+
+
+
+
+	.bl{
+		h2{
+			font-size: 14px;
+			font-family: 'Montserrat-Regular';
+			text-transform: uppercase;
+			color:$dark-text-color;
+			padding: 12px 0 27px 0;
+		}
+		.photo{
+			padding-bottom: 35px;
+
+		}
+
+		.text{
+			padding-left: 0;
+			line-height: 22px;
+			h3{
+				font-size: 12px;
+				font-family: 'Montserrat-Regular';
+				margin: 0;
+				text-transform: uppercase; 
+				line-height: 18px;
+				padding-top: 18px;
+				color: $dark-text-color;
+			}
+
+			p{
+				font-size: 12px;
+				font-family: 'Roboto-LightItalic';
+				display: inline-block;
+			}
+
+		}
+
+	}
+
+
+
+	.gr{
+		h2{
+			font-size: 14px;
+			font-family: 'Montserrat-Regular';
+			text-transform: uppercase;
+			color:$dark-text-color;
+			padding: 12px 0 27px 0;
+		}
+		.otsr{
+			padding-bottom: 15px;
+		}
+		.padLeft{
+			padding: 0;
+			a{
+				display: block;
+				padding:0 3px 2px 0;
+				height: 88px;
+				width: 86px;
+			}
+			img{
+				width: 100%;
+				height: 100%;
+			}
+
+		}
+
+		.viev{
+			font-family: 'Roboto-LightItalic';
+			font-size: 13px;
+			color:$dark-text-color;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+
+	.theEnd{
+		text-align: center;
+		font-family: 'Montserrat-Regular';
+		color:$dark-text-color;
+		font-size: 14px;
+		padding: 23px 0;
+		a{
+			color: $Line-red-color;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+
+}
+
+
+// _____________________плавный скролл___________________________________________
+
+
+
+#header.fixed{
+	background-color: #eb8b8d;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	transform: translate3d(0, 0, 0);
+	z-index: 5;
+	max-height: 67px;
+	.right{
+		padding-top: 0;
+	}
+	.left{
+		padding-top: 0;
+	}
+}
+
+
+#nav a.active{
+	color: #fce38a;
+	border-bottom: 3px solid;
+	padding-bottom: 9px;
+}
+
+
+// ______________________________вылезающие фотки__________________________________
+
+.NoneBlock{
+	display: none;
+}
+
+
+.setings{
+	text-align: center;
+	.centerPhoto{
+		display: inline-block;
+		img{
+			height: 600px;
+			width: 600px;
+		}
+	}
+}
+
+
+.mfp-close-btn-in .mfp-close{
+	color: #fff;
+	position: absolute;
+
+}
+
+button.mfp-close{
+	font-size: 50px;
+	right: 530px;
+	top: -2px; 
+}
+
+button.mfp-close:active{
+	top: -2px; 
+}
+
+
+// ______________________________бургер__________________________________
+
+
+.nav-toggle{
+	width: 30px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	z-index: 1;
+	padding: 1px 0;
+}
+
+.nav-toggle-item{
+	display: block;
+	width: 100%;
+	height: 3px;
+	background-color: #fff;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left:0;
+	margin: auto; 
+			transition: background .2s linear; //плавно меняем background-color
+		}
+
+		.nav-toggle-item:before,
+		.nav-toggle-item:after {
+			content: '';
+			width: 100%;
+			height: 3px;
+			background-color: #fff;
+			position: absolute;
+			left: 0;
+			z-index: 1;
+			transition: transform .2s linear; //что бы было все плавно
+		}
+
+		.nav-toggle-item:before{
+			top: -8px
+		}
+
+		.nav-toggle-item:after{
+			bottom:  -8px
+		}
+
+
+		.nav-toggle.active{
+			.nav-toggle-item{
+				background-color: #e88282;
+			}
+			.nav-toggle-item:before{
+				transform-origin: left top;
+				transform: rotate(45deg) translateX(-1px);
+			}
+			.nav-toggle-item:after{
+				transform-origin: left bottom;
+				transform: rotate(-45deg) translateX(-2px);
+			}
+		}

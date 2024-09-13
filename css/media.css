@@ -1,0 +1,636 @@
+
+
+@media (min-width: 0px) and (max-width: 320px) {
+	header .fon-gradient h1{
+		font-size: 40px;
+		line-height: 48px;
+	}
+
+	header .fon-gradient .Creative{
+		font-size: 22px;
+	}
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+	.fiveBlocksBlue .stat{
+		display: block;
+		text-align: center;
+	}
+
+	.fiveBlocksBlue .BlueBlocks{
+		width: 100%;
+		display: inline-block;
+		border: none;
+		border-bottom: 1px solid #b5eae0;
+		font-size: 14px;
+		height: 152px;
+	}
+
+	.fiveBlocksBlue .BlueBlocks span{
+		font-size: 52px;
+		padding: 0; 
+	}
+
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+
+	.borderBot{
+		border: none;
+		margin:0; 
+	}
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+	.iphone .fonForest .devices {
+		width: 225px;
+		height: 270px;
+	}
+	.iphone .ipad{
+		width: 205px;
+	}
+
+
+	.iphone .fonForest .devices .phone {
+		margin: -108px 0 0 137px;
+	}
+	.iphone .fonForest .devices .phone img {
+		width: 104px;
+		padding:0 0 0 20px;
+
+	}
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+	.service .box {
+		padding-left: 0; 
+	}
+
+
+.first-car .owl-carousel .owl-nav{
+	display: none;
+}
+
+	.GreyFonCarusel .text {
+		font-size: 16px;
+		padding-left: 53px;
+
+	}
+	.GreyFonCarusel .circle{
+		width: 105px;
+		height: 110px;
+		font-size: 62px;
+		margin-left:67px;
+	}
+
+}
+
+
+
+
+
+
+@media (min-width: 321px) and (max-width: 539px) {
+
+	header .fon-gradient h1{
+		font-size: 40px;
+		line-height: 55px;
+	}
+
+	header .fon-gradient .Creative{
+		font-size: 22px;
+	}
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+	.fiveBlocksBlue .stat{
+		display: block;
+		text-align: center;
+	}
+
+	.fiveBlocksBlue .BlueBlocks{
+		width: 100%;
+		display: inline-block;
+		border: none;
+		border-bottom: 1px solid #b5eae0;
+		font-size: 14px;
+		height: 152px;
+	}
+
+	.fiveBlocksBlue .BlueBlocks span{
+		font-size: 52px;
+		padding: 0; 
+	}
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+
+	.borderBot{
+		border: none;
+		margin:0; 
+	}
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+	.iphone .fonForest .devices {
+		width: 288px;
+		height: 326px;
+	}
+	.iphone .ipad{
+		width: 250px;
+	}
+
+
+	.iphone .fonForest .devices .phone {
+		margin: -152px 0 0 172px;
+	}
+	.iphone .fonForest .devices .phone img {
+		width: 134px;
+		padding:0 0 0 20px;
+
+	}
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+	.service .box {
+		padding-left: 0; 
+	}
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+.first-car .owl-carousel .owl-nav{
+	display: none;
+}
+
+	.GreyFonCarusel .text {
+		font-size: 16px;
+		padding-left: 53px;
+
+	}
+	.GreyFonCarusel .circle{
+		width: 105px;
+		height: 110px;
+		font-size: 62px;
+		margin-left:100px;
+	}
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 540px) and (max-width: 719px) {
+
+	header .fon-gradient h1{
+		font-size: 80px;
+		line-height: 82px;
+	}
+
+	header .fon-gradient .Creative{
+		font-size: 32px;
+	}
+
+
+
+	header .fon-gradient .bottom{
+		margin: 0 0 168px 0;
+	}
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+	.fiveBlocksBlue .stat{
+		display: block;
+		text-align: center;
+	}
+
+	.fiveBlocksBlue .BlueBlocks{
+		width: 167px;
+		display: inline-block;
+		border: none;
+	}
+
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+
+	.borderBot{
+		border: none;
+		margin:0; 
+	}
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+	.iphone .fonForest .devices {
+		width: 415px;
+		height: 448px;
+	}
+	.iphone .ipad{
+		width: 350px;
+	}
+
+
+	.iphone .fonForest .devices .phone {
+		margin: -233px 0 0 221px;
+	}
+	.iphone .fonForest .devices .phone img {
+		width: 192px;
+		padding:0 0 0 20px;
+
+	}
+	
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+	.service .box {
+		padding-left: 0; 
+	}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+		.marginleft {
+		margin-left: 470px;
+	}
+	.GreyFonCarusel .text {
+		font-size: 16px;
+		padding-left: 15px;
+
+	}
+	.GreyFonCarusel .circle{
+		width: 105px;
+		height: 110px;
+		font-size: 62px;
+		margin-left:150px;
+	}
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 720px) and (max-width: 959px) {
+
+	header .fon-gradient h1{
+		font-size: 80px;
+		line-height: 82px;
+	}
+
+	header .fon-gradient .Creative{
+		font-size: 32px;
+	}
+
+	header .fon-gradient .bottom{
+		margin: 0 0 149px 0;
+	}
+
+	header .fon-gradient .right{
+		padding-left: 14%;
+	}
+
+
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+	.fiveBlocksBlue .stat{
+		display: block;
+		text-align: center;
+	}
+
+	.fiveBlocksBlue .BlueBlocks{
+		width: 200px;
+		display: inline-block;
+		border: none;
+	}
+
+
+	.story .BlueFon .photo1:hover{
+		height: 252px;
+		width: 212px;
+	}
+
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+
+	.borderBot{
+		border: none;
+		margin:0; 
+	}
+
+
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+	.service .box {
+		padding-left: 0; 
+	}
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+	.marginleft {
+		margin-left: 654px;
+	}
+	.GreyFonCarusel .text {
+		font-size: 19px;
+		padding-left: 40px;
+
+	}
+	.GreyFonCarusel .circle{
+		width: 125px;
+		height: 130px;
+	}
+}
+
+/*____________________________________________________________________________*/
+
+
+@media (min-width: 960px) and (max-width: 991px) {
+	header .fon-gradient h1{
+		font-size: 80px;
+		line-height: 82px;
+	}
+
+	header .fon-gradient .Creative{
+		font-size: 32px;
+	}
+
+	header .fon-gradient .bottom{
+		margin: 0 0 246px 0;
+	}
+
+	header .fon-gradient .right{
+		padding-left: 14%;
+	}
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+
+
+
+
+
+	.story .BlueFon .photo1:hover{
+		height: 252px;
+		width: 212px;
+	}
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+
+	.borderBot{
+		border: none;
+		margin:0; 
+	}
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+	.service .box {
+		padding-left: 0; 
+	}
+
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+	.marginleft {
+		margin-left: 654px;
+	}
+	.GreyFonCarusel .text {
+		font-size: 19px;
+		padding-left: 40px;
+	}
+	
+
+	.GreyFonCarusel .circle{
+		width: 125px;
+		height: 130px;
+	}
+}
+
+
+/*____________________________________________________________________________*/
+
+
+
+
+@media (min-width: 992px) and (max-width: 1230px) {
+
+	header .fon-gradient h1{
+		font-size: 120px;
+	}
+
+	header .fon-gradient .Creative{
+		font-size: 52px;
+	}
+
+	header .fon-gradient .bottom{
+		margin: 0 0 106px 0;
+	}
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+
+
+
+
+
+	.story .BlueFon .photo1:hover{
+		height: 252px;
+		width: 291px;
+	}
+
+	.story .BlueFon .photo1 .descr{
+		padding-top: 100px;
+
+	}
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+	.marginleft {
+		margin-left: 877px;
+	}
+	.GreyFonCarusel .text {
+		font-size: 19px;
+	}
+
+	.GreyFonCarusel .circle{
+		width: 125px;
+		height: 130px;
+	}
+
+
+
+}
+
+
+
+
+
+/*____________________________________________________________________________*/
+
+
+
+
+@media (min-width: 1231px) and (max-width: 1679px){ 
+	header .fon-gradient h1{
+		line-height: 128px;
+	}
+
+	header .fon-gradient .bottom{
+		margin: 0 0 106px 0;
+	}
+}
+/*____________________________________________________________________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+
+
+	header .fon-gradient .left, #header.fixed .left, .shapka.active{
+		background-color: #e88282;
+
+	}
+
+
+
+
+	header .fon-gradient .left.active{
+		display: block;
+	}
+
+	header .fon-gradient .right{
+		padding-left: 15px;
+	}
+
+
+	header .fon-gradient nav ul li{
+		display: block;
+		height: 46px;
+		padding: 0;
+	}
+	header .fon-gradient nav ul li a{
+		display: block;
+		height: 50px;
+		width: 100%;
+	}
+
+	header .fon-gradient .left {
+		padding-top: 0;
+		margin-top: -10px;
+		display: block;
+		padding-bottom: 20px;
+		display: none;
+
+	}
+
+	header .none{
+		margin: 0; 
+
+	}
+
+
+
+	header .fon-gradient .BottomMenu{
+		font-size: 14px;
+	}
+	header .fon-gradient .BottomMenu span{
+		font-size: 20px;
+	}
+
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+	.story .bot{
+		padding-bottom: 0;
+	}
+
+	.pad {
+		padding-bottom: 20px;
+	}
+
+	.story .BlueFon .photo1:hover{
+		height: 252px;
+		width: 100%;
+	}
+
+	.story .BlueFon .photo1 .descr{
+		padding-top: 100px;
+
+	}
+	/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+	.service .photo {
+		padding: 	30px 15px;
+	}
+
+	.service .bok{
+		padding: 	0 15px;
+	}
+		/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+}
+
+@media (min-width: 720px) and (max-width: 767px) {
+	.marginleft {
+		margin-left: 490px;
+	}
+	.GreyFonCarusel .text {
+		font-size: 19px;
+		padding-left: 40px;
+
+	}
+	.GreyFonCarusel .circle{
+		width: 125px;
+		height: 130px;
+		margin-left: 151PX;
+	}
+}
+
+/*____________________________________________________________________________*/
+
+@media (min-width: 768px) and (max-width: 3000px){
+	.nav-toggle{
+		display: none;
+	}
+}
+
+
+
