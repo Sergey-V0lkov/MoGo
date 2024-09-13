@@ -23,7 +23,7 @@
  
 ## Шаг 4
 
-Готово, в браузере откроется проект Austera
+Готово, в браузере откроется проект MoGo
 
 ![Screenshot_4](https://github.com/user-attachments/assets/ced09255-e5d8-4f8f-a1b2-297adc424807)
 
