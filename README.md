@@ -19,8 +19,9 @@
 - JQuery :heavy_check_mark:
 
   А так же использование следующих библиотек:
-- animate (анимации) :heavy_check_mark:
-- Font Awesome (это библиотека иконок) :heavy_check_mark:
+- imagefill (плагин jQuery, позволяющий изображениям (и видео) заполнять доступное пространство в адаптивных макетах и ​​обрезать их по центру) :heavy_check_mark:
+- magnific :heavy_check_mark:
+- masonry :heavy_check_mark:
 - owl (для каруселей) :heavy_check_mark:
 
 ---
